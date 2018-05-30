@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "伊广旭" => "yiguangxu@kws-info.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/lxlxl3691/YGXCheckVersion.git", :tag => "v1.0.0" }
-  s.source_files  = "YGXCheckVersion/YGXCheckVersion/*.swift"
+  s.source_files  = "YGXCheckVersion/*.swift"
   s.exclude_files = "Classes/Exclude"
   s.swift_version = "3.3"
   s.dependency "Alamofire"
