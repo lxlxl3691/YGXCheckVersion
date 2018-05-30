@@ -14,24 +14,6 @@ public typealias YGXCheckVersionBlock = (_ notes: String, _ openUrl: String) -> 
 
 public class YGXCheckVersion: NSObject {
     
-    /// 通过访问自己的后台来检测更新,使用系统提示框
-    ///
-    /// - Parameter _dict: 更新数据
-    public func checkVersionWithSystemType(dict: [AnyHashable : Any]) {
-        if let isNewUpdateVersion = dict["isNewUpdateVersion"] as? String, isNewUpdateVersion == "0" {
-            guard let msg = dict["versionTip"] as? String else {
-                return
-            }
-            guard let isForceUpdateVersion = dict["isForceUpdateVersion"] as? String else {
-                return
-            }
-            guard let updateUrl = dict["updateVersionUrl"] as? String else {
-                return
-            }
-            showAlert(message: msg, openUrl: updateUrl, isForce: isForceUpdateVersion == "1")
-        }
-    }
-    
     /// 利用BundleId访问App Store,检测更新,自定义提示框
     ///
     /// - Parameter _isDaily: 是否每日首次提示

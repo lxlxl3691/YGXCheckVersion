@@ -10,7 +10,6 @@ import Foundation
 
 enum Environment: String {
     case appStore = "http://itunes.apple.com/"
-    //    case ucfPay = "https://ipay.ucfpay.com/bizpay-api/api/"
 }
 
 enum UrlPath: String {

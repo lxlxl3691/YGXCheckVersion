@@ -12,9 +12,9 @@
 		84F171AD20BE4CBD00D65ED7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F171AB20BE4CBD00D65ED7 /* Main.storyboard */; };
 		84F171AF20BE4CBE00D65ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F171AE20BE4CBE00D65ED7 /* Assets.xcassets */; };
 		84F171B220BE4CBE00D65ED7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F171B020BE4CBE00D65ED7 /* LaunchScreen.storyboard */; };
-		84F171BB20BE4E1E00D65ED7 /* YGXCheckVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BA20BE4E1E00D65ED7 /* YGXCheckVersion.swift */; };
-		84F171BD20BE4E3200D65ED7 /* YGXAPITool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BC20BE4E3200D65ED7 /* YGXAPITool.swift */; };
-		84F171BF20BE4EC900D65ED7 /* YGXConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BE20BE4EC900D65ED7 /* YGXConfig.swift */; };
+		84F171DE20BE6E1900D65ED7 /* YGXCheckVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BA20BE4E1E00D65ED7 /* YGXCheckVersion.swift */; };
+		84F171DF20BE6E1900D65ED7 /* YGXAPITool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BC20BE4E3200D65ED7 /* YGXAPITool.swift */; };
+		84F171E020BE6E1900D65ED7 /* YGXConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F171BE20BE4EC900D65ED7 /* YGXConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -153,11 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F171DE20BE6E1900D65ED7 /* YGXCheckVersion.swift in Sources */,
+				84F171DF20BE6E1900D65ED7 /* YGXAPITool.swift in Sources */,
+				84F171E020BE6E1900D65ED7 /* YGXConfig.swift in Sources */,
 				84F171AA20BE4CBD00D65ED7 /* ViewController.swift in Sources */,
 				84F171A820BE4CBD00D65ED7 /* AppDelegate.swift in Sources */,
-				84F171BB20BE4E1E00D65ED7 /* YGXCheckVersion.swift in Sources */,
-				84F171BF20BE4EC900D65ED7 /* YGXConfig.swift in Sources */,
-				84F171BD20BE4E3200D65ED7 /* YGXAPITool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
