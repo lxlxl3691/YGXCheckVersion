@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source_files  = "YGXCheckVersion/*.swift"
   s.exclude_files = "Classes/Exclude"
   s.swift_version = "3.3"
-  s.dependency "Alamofire"
 end
 
   # s.public_header_files = "Classes/**/*.h"
